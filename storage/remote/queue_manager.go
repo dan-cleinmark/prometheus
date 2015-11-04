@@ -23,7 +23,7 @@ import (
 
 const (
 	// The maximum number of concurrent send requests to the remote storage.
-	maxConcurrentSends = 10
+	maxConcurrentSends = 50
 	// The maximum number of samples to fit into a single request to the remote storage.
 	maxSamplesPerSend = 1000
 	// The deadline after which to send queued samples even if the maximum batch
