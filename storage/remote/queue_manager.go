@@ -25,7 +25,7 @@ const (
 	// The maximum number of concurrent send requests to the remote storage.
 	maxConcurrentSends = 10
 	// The maximum number of samples to fit into a single request to the remote storage.
-	maxSamplesPerSend = 100
+	maxSamplesPerSend = 1000
 	// The deadline after which to send queued samples even if the maximum batch
 	// size has not been reached.
 	batchSendDeadline = 5 * time.Second
